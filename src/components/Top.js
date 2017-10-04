@@ -32,7 +32,9 @@ class Top extends Component {
       <div className={elClass}>
         <div className="container">
             <div className="Top_brand col-xs-12 col-sm-4 text-left">
-                <img src={logo} alt="" />
+                <Link to="/">
+                    <img src={logo} alt="" />
+                </Link>
                 <span>Stream</span>
             </div>
                 <div className="Top_menu col-xs-12 col-sm-8 text-right">

@@ -11,7 +11,7 @@ import Video from './components/Video';
 class HomePage extends Component {
     render() {
         return (
-            <div className="Home_page row">
+            <div className="Home_page">
                 <Header />
                 <div className="container">
                     <Performers />

@@ -12,7 +12,7 @@ import Connect from './components/Connect';
 class WhatWhyPage extends Component {
     render() {
         return (
-            <div className="WhatWhy_page row">
+            <div className="WhatWhy_page">
                 <Video fullWidth={true} />
 
                 <div className="container">

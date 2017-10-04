@@ -9,7 +9,7 @@ import Team from './components/Team';
 class TeamPage extends Component {
     render() {
         return (
-            <div className="Team_page row">
+            <div className="Team_page">
                 <Story />
                 <hr/>
                 <Team />

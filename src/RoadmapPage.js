@@ -8,7 +8,7 @@ import Roadmap from './components/Roadmap';
 class RoadmapPage extends Component {
     render() {
         return (
-            <div className="Roadmap_page row">
+            <div className="Roadmap_page">
                 <div className="container">
                     <Roadmap />
                 </div>

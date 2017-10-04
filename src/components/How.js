@@ -7,7 +7,7 @@ import './How.css';
 class How extends Component {
   render() {
     return (
-      <section className="How row">
+      <section className="How">
         <h1>How to do stuff with us right</h1>
 
         <div className="container">

@@ -5,7 +5,7 @@ import './BlogPage.css';
 class BlogPage extends Component {
   render() {
     return (
-      <div className="BlogPage row">
+      <div className="BlogPage">
         <div className="BlogPage_header text-center">
             <h1>Meet the Developer Community</h1>
         </div>
