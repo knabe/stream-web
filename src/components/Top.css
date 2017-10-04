@@ -1,8 +1,12 @@
 .Top {
     max-width: 100%;
     color: #fff;
-    padding: 45px 0;
     margin: 0;
+    padding: 25px 0;
+}
+
+.Top.home {
+    padding: 45px 0;
 }
 
 .Top_brand, .Top_menu {
@@ -69,4 +73,28 @@
 
 .Top.solid_bg {
     background: #272c69;
+}
+
+@media (max-width: 1023px) {
+    .Top_brand {
+        text-align: center !important;
+    }
+
+    .Top_menu {
+        text-align: center !important;
+    }
+}
+
+@media (max-width: 767px) {
+    .Top {
+        padding: 25px 0 45px;
+    }
+
+    .Top_menu li {
+        margin-bottom: 10px;
+    }
+
+    .Top_menu li:not(.btn_li):hover::after {
+        display: none;
+    }
 }

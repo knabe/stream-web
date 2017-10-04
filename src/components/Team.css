@@ -26,3 +26,17 @@
     padding: 0;
     display: block;
 }
+
+@media (max-width: 767px) {
+    .Team {
+        padding: 45px 0 !important;
+    }
+
+    .Team .member {
+        text-align: center;
+    }
+
+    .Team h1 {
+        text-align: center;
+    }
+}

@@ -59,3 +59,61 @@
 .How_monetize {
     margin: 0 auto;
 }
+
+@media (max-width: 1023px) {
+    .How {
+        padding: 75px 15px !important;
+    }
+
+    .How h1 {
+        margin-bottom: 60px;
+    }
+
+    .How h2 {
+        margin-top: 55px;
+    }
+
+    .How_steps {
+        margin-bottom: 120px;
+    }
+
+    .How_steps .step {
+        width: 30%;
+    }
+
+    .How_buy {
+        margin-bottom: 120px;
+    }
+}
+
+@media (max-width: 767px) {
+    .How {
+        padding: 60px 15px !important;
+    }
+
+    .How h2 {
+        margin: 30px auto 50px;
+    }
+
+    .How_steps {
+        margin-bottom: 60px;
+    }
+
+    .How_steps .step {
+        display: block;
+        width: 100%;
+        margin-bottom: 50px;
+    }
+
+    .How_buy {
+        margin-bottom: 60px;
+    }
+
+    .How_buy img {
+        margin-top: 60px;
+    }
+
+    .How_monetize img {
+        display: none;
+    }
+}

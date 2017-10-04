@@ -7,13 +7,21 @@ body {
   color: #272c69;
 }
 
+* {
+    box-sizing: border-box;
+}
+
 h1 {
     font-size: 32px;
     font-weight: 300;
 }
 
+.container {
+    max-width: 100%;
+}
+
 .text_red {
-    color: red !important;
+    color: #eb2b4f !important;
 }
 
 section:not(.Header) {
@@ -21,5 +29,9 @@ section:not(.Header) {
 }
 
 hr {
+    max-width: 100%;
+}
+
+img {
     max-width: 100%;
 }

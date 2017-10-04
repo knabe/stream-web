@@ -1,4 +1,4 @@
-section.Performers {
+.Performers {
     padding: 140px 0 !important;
 }
 
@@ -16,4 +16,16 @@ section.Performers {
     position: relative;
     top: 25px;
     left: 0;
+}
+
+@media (max-width: 1023px) {
+    .Performers h1 {
+        margin-top: 0;
+    }
+}
+
+@media (max-width: 767px) {
+    .Performers {
+        padding: 45px 0 !important;
+    }
 }

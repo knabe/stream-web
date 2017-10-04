@@ -6,31 +6,20 @@ import logo from '../images/logo.png'
 import './Top.css';
 
 class Top extends Component {
-  constructor(props) {
-      super(props);
-
-      this.state = {
-          hasBg: false
-      }
-  }
-
   render() {
-    var hasBg = this.props.hasBg;
-
-
-        var elClass = hasBg ? 'Top row solid_bg' : 'Top row';
+    var elClass = this.props.hasBg ? 'Top row solid_bg' : 'Top row';
 
 
     return (
       <div className={elClass}>
         <div className="container">
-            <div className="Top_brand col-xs-12 col-sm-4 text-left">
+            <div className="Top_brand col-xs-12 col-md-4 text-left">
                 <Link to="/">
                     <img src={logo} alt="" />
                 </Link>
                 <span>Stream</span>
             </div>
-                <div className="Top_menu col-xs-12 col-sm-8 text-right">
+                <div className="Top_menu col-xs-12 col-md-8 text-right">
                     <ul>
                         <li><Link to="/whatwhy">What & Why</Link></li>
                         <li><Link to="/team">Team</Link></li>

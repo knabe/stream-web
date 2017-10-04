@@ -35,3 +35,14 @@
 .Intro_image {
     padding-right: 0;
 }
+
+@media (max-width: 767px) {
+    .Intro {
+        padding: 45px 0 45px 15px;
+    }
+
+    .Intro_content {
+        padding: 0 0 100px;
+        text-align: center !important;
+    }
+}

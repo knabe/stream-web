@@ -58,3 +58,19 @@
 .FAQ li p.active_q {
     display: block;
 }
+
+@media (max-width: 767px) {
+    .FAQ {
+        padding: 45px 0 !important;
+    }
+
+    .FAQ li h3 {
+        padding: 30px 35px 30px 0;
+        font-size: 18px;
+    }
+
+    .FAQ li p {
+        padding: 0px 35px 30px 0;
+        font-size: 18px;
+    }
+}

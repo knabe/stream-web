@@ -81,3 +81,20 @@
     margin: auto;
     z-index: 9;
 }
+
+@media (max-width: 767px) {
+    .Roadmap::after {
+        display: none;
+    }
+
+    .Roadmap .feature_box {
+        float: none !important;
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+        width: 100%;
+    }
+
+    .Roadmap .feature_box::after {
+        display: none;
+    }
+}

@@ -55,3 +55,17 @@
     font-weight: 700;
     color: #eb2b4f;
 }
+
+@media (max-width: 767px) {
+    .BlogPage_header {
+        padding: 100px 0 !important;
+    }
+
+    .BlogPage_posts {
+        padding: 60px 0 30px !important;
+    }
+
+    .BlogPage_pagination {
+        padding-bottom: 60px;
+    }
+}

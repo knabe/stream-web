@@ -30,3 +30,17 @@
 .Story_image {
     padding-right: 0;
 }
+
+@media (max-width: 767px) {
+    .Story {
+        padding: 45px 0 !important;
+    }
+
+    .Story h1 {
+        margin-top: 0;
+    }
+
+    .Story_content {
+        padding: 45px 0;
+    }
+}
