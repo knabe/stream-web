@@ -15,11 +15,11 @@ class Footer extends Component {
             <img src={logo} alt="Stream" />
             2017 Stream - All Rights Reserved
         </div>
-          <div className="col-xs-12 col-sm-4 col-lg-5 text-right">
+          <div className="col-xs-12 col-sm-4 text-right">
             <a href="">Terms & Conditions</a>
             <a href="">Privacy Policy</a>
         </div>
-        <div className="col-xs-12 col-sm-2 col-lg-1 text-right">
+        <div className="col-xs-12 col-sm-2 text-right">
             <a href=""><img src={iconFacebook} alt="" /></a>
             <a href=""><img src={iconTwitter} alt="" /></a>
             <a href=""><img src={iconInstagram} alt="" /></a>

@@ -12,7 +12,7 @@
     margin-bottom: 30px;
 }
 
-.Intro_content input {
+.Intro_content input[type="email"] {
     border: none;
     padding: 9px 10px;
     border-radius: 6px 0 0 6px;
@@ -20,7 +20,7 @@
     min-width: 60%;
 }
 
-.Intro_content button {
+.Intro_content .btn {
     border: none;
     border-radius: 0 6px 6px 0;
     background: #49c3cf;
@@ -30,6 +30,7 @@
     font-weight: 400;
     font-size: 11px;
     max-width: 39%;
+    margin-top: -1px;
 }
 
 .Intro_image {
