@@ -1,0 +1,31 @@
+section.Solution {
+    padding: 0 0 140px !important;
+}
+
+.Solution h1 {
+    position: relative;
+    margin: 110px auto 50px;
+}
+
+.Solution h1:after {
+    content: " ";
+    display: block;
+    width: 40px;
+    height: 1px;
+    background: #272c69;
+    position: relative;
+    top: 25px;
+    left: 0;
+}
+
+.Solution button {
+    border: none;
+    border-radius: 6px;
+    background: #49c3cf;
+    color: #fff;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 11px;
+    margin-top: 20px;
+}

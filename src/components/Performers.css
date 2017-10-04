@@ -1,0 +1,19 @@
+section.Performers {
+    padding: 140px 0 !important;
+}
+
+.Performers h1 {
+    position: relative;
+    margin: 110px auto 50px;
+}
+
+.Performers h1:after {
+    content: " ";
+    display: block;
+    width: 40px;
+    height: 1px;
+    background: #272c69;
+    position: relative;
+    top: 25px;
+    left: 0;
+}

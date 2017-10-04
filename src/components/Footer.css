@@ -1,0 +1,24 @@
+.Footer {
+    padding: 50px 0;
+    border-top: 1px solid #c5c5c5;
+}
+
+.Footer > div {
+    vertical-align: middle;
+    height: 20px;
+    margin: 20px auto;
+}
+
+.Footer > div:nth-child(2) a {
+    margin: 0 10px;
+}
+
+.Footer a {
+    height: 100%;
+}
+
+.Footer img {
+    display: inline-block;
+    vertical-align: middle;
+    margin: -20px 10px -20px 0;
+}

@@ -1,0 +1,11 @@
+.Video img {
+    max-width: 96%;
+}
+
+.Video.full_width {
+    padding: 0 !important;
+}
+.Video.full_width img {
+    width: 100%;
+    max-width: 100%;
+}

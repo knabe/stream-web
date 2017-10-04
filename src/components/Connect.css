@@ -1,0 +1,13 @@
+.Connect {
+    padding: 160px 100px !important;
+}
+
+.Connect_info {
+    margin: 100px auto;
+}
+
+.Connect_links a {
+    margin-right: 20px;
+    font-size: 18px;
+    text-decoration: underline;
+}

@@ -1,0 +1,83 @@
+.Roadmap {
+    position: relative;
+}
+.Roadmap::after {
+    content: " ";
+    height: 65%;
+    width: 2px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 210px;
+    margin: auto;
+    background: #f7f7f7;
+}
+
+.Roadmap .month {
+    display: block;
+    position: relative;
+    margin: 20px 0;
+}
+
+.Roadmap .month_name {
+    padding: 5px 10px;
+    background: #eb2b4f;
+    color: #fff;
+    display: block;
+    margin: 0 auto;
+    clear: both;
+    width: 150px;
+    border-radius: 5px;
+    font-weight: 400;
+    z-index: 9;
+    position: relative
+}
+
+.Roadmap .feature_box {
+    width: 40%;
+    padding: 15px;
+    border-radius: 10px;
+    background: #f7f7f7;
+    margin: 30px auto;
+    clear: both;
+    text-align: left;
+    position: relative;
+}
+
+.Roadmap .feature_box.left {
+    float: left;
+    margin-left: 5%;
+}
+
+.Roadmap .feature_box.left::after {
+    content: " ";
+    height: 32px;
+    width: 32px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: -72px;
+    background: #ebebeb;
+    border-radius: 16px;
+    margin: auto;
+    z-index: 9;
+}
+
+.Roadmap .feature_box.right {
+    float: right;
+    margin-right: 5%;
+}
+
+.Roadmap .feature_box.right::after {
+    content: " ";
+    height: 32px;
+    width: 32px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: -72px;
+    background: #ebebeb;
+    border-radius: 16px;
+    margin: auto;
+    z-index: 9;
+}

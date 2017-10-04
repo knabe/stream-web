@@ -1,0 +1,28 @@
+.Team {
+    margin: 0 auto;
+    padding: 140px 0 !important;
+}
+
+.Team h1 {
+    margin: 0 0 50px;
+    text-align: left;
+}
+
+.Team .members {
+    text-align: center;
+}
+
+.Team .member {
+    text-align: left;
+    margin-bottom: 80px;
+}
+
+.Team .member img {
+    margin-bottom: 20px;
+}
+
+.Team .member p {
+    margin: 0;
+    padding: 0;
+    display: block;
+}

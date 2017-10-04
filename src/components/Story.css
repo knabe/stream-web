@@ -1,0 +1,32 @@
+.Story {
+    margin: 0;
+    padding: 100px 0 !important;
+}
+
+.Story_content {
+    padding: 95px 0;
+}
+
+.Story_content h1 {
+    color: #272c69;
+    position: relative;
+    margin-bottom: 50px;
+}
+
+.Story_content h1:after {
+    content: " ";
+    display: block;
+    width: 40px;
+    height: 1px;
+    background: #000;
+    position: relative;
+    top: 25px;
+    left: 0;
+}
+.Story_content p {
+    font-weight: 300;
+}
+
+.Story_image {
+    padding-right: 0;
+}

@@ -1,0 +1,59 @@
+.FAQ {
+    padding: 160px 0 !important;
+}
+
+.FAQ h1 {
+    margin-bottom: 60px;
+}
+
+.FAQ h2 {
+    font-weight: 300;
+    margin: 40px auto 20px;
+}
+
+.FAQ > p {
+    margin-bottom: 60px;
+}
+
+.FAQ ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.FAQ li {
+}
+
+.FAQ li h3 {
+    display: block;
+    position: relative;
+    margin: 0 auto;
+    padding: 45px 0;
+    font-size: 22px;
+    font-weight: 300;
+    border-bottom: 1px solid #ccc;
+    cursor: pointer;
+}
+.FAQ li h3::after {
+    content: "+";
+    height: 24px;
+    width: 24px;
+    border-radius: 16px;
+    border: 1px solid #ccc;
+    color: #ccc;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    text-align: center;
+}
+
+.FAQ li p {
+    display: none;
+    margin: 0 auto;
+    padding: 45px 0;
+    font-size: 22px;
+}
+.FAQ li p.active_q {
+    display: block;
+}
