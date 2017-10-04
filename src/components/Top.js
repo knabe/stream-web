@@ -1,12 +1,5 @@
 import React, { Component } from 'react';
-import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
-
-import HomePage from '../HomePage';
-import WhatWhyPage from '../WhatWhyPage';
-import TeamPage from '../TeamPage';
-import RoadmapPage from '../RoadmapPage';
-import FAQPage from '../FAQPage';
-import BlogPage from '../BlogPage';
+import { Link } from 'react-router-dom';
 
 import logo from '../images/logo.png'
 

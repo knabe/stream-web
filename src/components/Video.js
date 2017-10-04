@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-import img from '../images/video.png';
+import img from '../images/video.jpg';
 
 import './Video.css';
 
