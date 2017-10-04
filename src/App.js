@@ -19,18 +19,18 @@ class App extends Component {
   render() {
     return (
         <Router>
-        <div className="App">
-            <Top hasBg={true} />
+            <div className="App">
+                <Top hasBg={true} />
 
-            <Route exact path="/" component={HomePage} />
-            <Route path="/whatwhy" component={WhatWhyPage} />
-            <Route path="/team" component={TeamPage} />
-            <Route path="/roadmap" component={RoadmapPage} />
-            <Route path="/faq" component={FAQPage} />
-            <Route path="/blog" component={BlogPage} />
+                <Route exact path="/" component={HomePage} />
+                <Route path="/whatwhy" component={WhatWhyPage} />
+                <Route path="/team" component={TeamPage} />
+                <Route path="/roadmap" component={RoadmapPage} />
+                <Route path="/faq" component={FAQPage} />
+                <Route path="/blog" component={BlogPage} />
 
-            <Footer />
-        </div>
+                <Footer />
+            </div>
         </Router>
     );
   }

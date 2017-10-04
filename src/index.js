@@ -9,9 +9,10 @@ import './index.css';
 import registerServiceWorker from './registerServiceWorker';
 
 ReactDOM.render(
-    <Router>
-        <Route exact path="/" component={App}/>
-    </Router>,
+    // <Router>
+        // <Route exact path="/" component={App}/>
+    // </Router>,
+    <App />,
     document.getElementById('root')
 );
 
