@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 
-import logo from '../images/logo.png'
+import logo from '../images/logo.svg'
 
 import './Top.css';
 
@@ -17,7 +17,6 @@ class Top extends Component {
                 <Link to="/">
                     <img src={logo} alt="" />
                 </Link>
-                <span>Stream</span>
             </div>
                 <div className="Top_menu col-xs-12 col-md-8 text-right">
                     <ul>

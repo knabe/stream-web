@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-import img from '../images/solution.png';
+import img from '../images/solution.svg';
 
 import './Solution.css';
 

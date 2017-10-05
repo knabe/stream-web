@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-import img from '../images/performers.png';
+import img from '../images/performers.svg';
 
 import './Performers.css';
 

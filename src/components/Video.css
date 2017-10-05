@@ -5,7 +5,8 @@
 .Video.full_width {
     padding: 0 !important;
 }
-.Video.full_width img {
+.Video.full_width img,
+.Video.full_width video {
     width: 100%;
     max-width: 100%;
 }

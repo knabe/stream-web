@@ -41,15 +41,26 @@
     margin: 0 auto;
     width: 20%;
     display: inline-block;
+    text-align: left;
+    font-weight: 300;
 }
 
 .How_steps .step img {
     display: block;
-    height: 64px;
-    width: 64px;
+    height: 150px;
+    width: 150px;
     border: 1px solid #fff;
-    border-radius: 32px;
+    border-radius: 75px;
     margin: 0 auto;
+}
+
+.How_steps .step h3 {
+    margin: 50px auto 10px;
+    font-weight: 300;
+}
+
+.How_steps .step p {
+    font-weight: 300;
 }
 
 .How_buy {

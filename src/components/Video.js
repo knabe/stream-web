@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-import img from '../images/video.jpg';
+import video from '../images/DKVideo.mp4';
 
 import './Video.css';
 
@@ -10,7 +10,10 @@ class Video extends Component {
 
     return (
       <section className={'Video col-xs-12' + width_class}>
-        <img src={img} alt="" />
+        <video controls>
+            <source src={video} type="video/mp4"/>
+            Your browser is not supported. Please use latest version of Chrome or Firefox and try again.
+        </video>
       </section>
     );
   }

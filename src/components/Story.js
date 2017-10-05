@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-import story from '../images/story.png';
+import story from '../images/story.svg';
 
 import './Story.css';
 

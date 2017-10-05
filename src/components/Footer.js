@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 
-import logo from '../images/logo.png';
-import iconFacebook from '../images/icon-facebook.png';
-import iconTwitter from '../images/icon-twitter.png';
-import iconInstagram from '../images/icon-instagram.png';
+import logo from '../images/logo_simple.svg';
+import iconFacebook from '../images/facebook.svg';
+import iconTwitter from '../images/twitter.svg';
+import iconInstagram from '../images/instagram.svg';
 
 import './Footer.css';
 

@@ -37,7 +37,7 @@
     padding-right: 0;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 1023px) {
     .Intro {
         padding: 45px 0 45px 15px;
     }
@@ -45,5 +45,29 @@
     .Intro_content {
         padding: 0 0 100px;
         text-align: center !important;
+    }
+}
+
+@media (min-width: 960px) {
+    .Intro {
+        position: static;
+    }
+
+    .Intro_image {
+        position: static;
+    }
+
+    .Intro_image img {
+        position: absolute;
+        right: 0;
+    }
+}
+
+@media (min-width: 1024px) and (max-width: 1199px) {
+    .Intro_image img {
+        position: absolute;
+        right: 0;
+        top: 150px;
+        max-width: 450px;
     }
 }
