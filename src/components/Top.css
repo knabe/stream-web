@@ -54,6 +54,9 @@
     vertical-align: middle;
     position: relative;
 }
+.Top_menu a.btn.discord {
+    background: #ec2b4f;
+}
 .Top_menu a:not(.btn):hover {
     color: #eb2b4f;
     text-decoration: none;

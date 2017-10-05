@@ -26,6 +26,7 @@ class Top extends Component {
                         <li><Link to="/faq">FAQ</Link></li>
                         <li><Link to="/blog">Blog</Link></li>
                         <li className="btn_li"><a href="" className="btn">Download CRX</a></li>
+                        <li className="btn_li"><a href="http://discord.streamtoken.net/" className="btn discord">Join Discord</a></li>
                     </ul>
                 </div>
         </div>
