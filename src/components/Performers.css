@@ -26,6 +26,16 @@
 
 @media (max-width: 767px) {
     .Performers {
-        padding: 45px 0 !important;
+        padding: 0 !important;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .Performers > div {
+        margin: 45px auto 0;
+    }
+
+    .Performers > div:first-child {
+        margin-bottom: 45px;
     }
 }

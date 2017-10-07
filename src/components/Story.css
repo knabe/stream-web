@@ -46,8 +46,13 @@
         margin-top: 0;
     }
 
+    .Story .container {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
     .Story_content {
-        padding: 45px 0;
+        padding: 45px 0 0;
     }
 
     .Story_image {

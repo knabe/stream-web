@@ -94,7 +94,7 @@
 
 @media (max-width: 767px) {
     .Top {
-        padding: 25px 0 45px;
+        padding: 25px 0;
     }
 
     .Top_menu li {
