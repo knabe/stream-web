@@ -3,11 +3,11 @@ import { BrowserRouter as Router, Route } from 'react-router-dom';
 
 // Pages
 import HomePage from './HomePage';
-import WhatWhyPage from './WhatWhyPage';
+// import WhatWhyPage from './WhatWhyPage';
 import TeamPage from './TeamPage';
-import RoadmapPage from './RoadmapPage';
-import FAQPage from './FAQPage';
-import BlogPage from './BlogPage';
+// import RoadmapPage from './RoadmapPage';
+// import FAQPage from './FAQPage';
+// import BlogPage from './BlogPage';
 
 // General/Home modules
 import Top from './components/Top';
@@ -25,11 +25,7 @@ class App extends Component {
 
                 <Route exact path="/" component={HomePage} />
                 <Route exact path="/stream-2/" component={HomePage} />
-                <Route path="/stream-2/whatwhy" component={WhatWhyPage} />
                 <Route path="/stream-2/team" component={TeamPage} />
-                <Route path="/stream-2/roadmap" component={RoadmapPage} />
-                <Route path="/stream-2/faq" component={FAQPage} />
-
 
                 <Footer />
             </div>

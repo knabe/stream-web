@@ -20,9 +20,15 @@ class Footer extends Component {
             <a href="">Privacy Policy</a>
         </div>
         <div className="col-xs-12 col-sm-2 text-right">
-            <a href="https://www.facebook.com/stream"><img src={iconFacebook} alt="" /></a>
-            <a href=""><img src={iconTwitter} alt="" /></a>
-            <a href=""><img src={iconInstagram} alt="" /></a>
+            <a href="https://www.facebook.com/stream" target="_blank" rel="noopener noreferrer">
+                <img src={iconFacebook} alt="" />
+            </a>
+            <a href="https://twitter.com/stream_token" target="_blank" rel="noopener noreferrer">
+                <img src={iconTwitter} alt="" />
+            </a>
+            <a href="https://www.instagram.com/streamtoken" target="_blank" rel="noopener noreferrer">
+                <img src={iconInstagram} alt="" />
+            </a>
         </div>
       </section>
     );
