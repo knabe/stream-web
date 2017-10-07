@@ -47,6 +47,7 @@
 @media (max-width: 1023px) {
     .Intro {
         padding: 45px 0 45px 15px;
+        width: 100%;
     }
 
     .Intro_content {
@@ -76,5 +77,15 @@
         right: 0;
         top: 150px;
         max-width: 450px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 959px) {
+    .Intro_content {
+        padding: 0 !important;
+        text-align: left !important;
+    }
+    .Intro_content h1 {
+        font-size: 28px;
     }
 }
