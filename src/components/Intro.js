@@ -18,13 +18,15 @@ class Intro extends Component {
                 target="_blank"
                 noValidate>
 
+                <label for="EMAIL">Join our newsletter for early access</label>
+                
                 <input
                     type="email"
                     value=""
                     name="EMAIL"
                     className="email"
                     id="mce-EMAIL"
-                    placeholder="Join the newsletter"/>
+                    placeholder="ex. john@doe.com"/>
 
                 <input
                     type="submit"

@@ -20,6 +20,13 @@
     min-width: 60%;
 }
 
+.Intro_content label {
+    margin-bottom: 10px;
+    font-weight: 300;
+    color: #dadada;
+    font-size: 18px;
+}
+
 .Intro_content .btn {
     border: none;
     border-radius: 0 6px 6px 0;

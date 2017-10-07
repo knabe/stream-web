@@ -12,9 +12,8 @@ class Solution extends Component {
             <img src={img} alt="" />
         </div>
         <div className="col-xs-12 col-sm-6 text-left">
-            <h1>Solution for streamers.</h1>
-            <p>Stream also incentivizes new and existing creators to make great content by automatically distributing newly minted tokens to creators based on their contributions to the ecosystem.</p>
-            <button>Learn More</button>
+            <h1>Excellent work <br/>should get fairly rewarded.</h1>
+            <p>Stream incentivizes the production of great content by automatically distributing tokens to creators based on their contributions to the internet video ecosystem. </p>
         </div>
       </section>
     );

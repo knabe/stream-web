@@ -14,18 +14,12 @@ class Top extends Component {
       <div className={elClass}>
         <div className="container">
             <div className="Top_brand col-xs-12 col-md-4 text-left">
-                <Link to="/">
-                    <img src={logo} alt="" />
-                </Link>
+                <Link to="/stream-2/"><img src={logo} alt="" /></Link>
             </div>
                 <div className="Top_menu col-xs-12 col-md-8 text-right">
                     <ul>
-                        <li><Link to="/whatwhy">What & Why</Link></li>
-                        <li><Link to="/team">Team</Link></li>
-                        <li><Link to="/roadmap">Roadmap</Link></li>
-                        <li><Link to="/faq">FAQ</Link></li>
-                        <li><Link to="/blog">Blog</Link></li>
-                        <li className="btn_li"><a href="" className="btn">Download CRX</a></li>
+                        <li><Link to="/stream-2/team">Team</Link></li>
+                        <li><a href="https://blog.streamtoken.net/">Blog</a></li>
                         <li className="btn_li"><a href="http://discord.streamtoken.net/" className="btn discord">Join Discord</a></li>
                     </ul>
                 </div>

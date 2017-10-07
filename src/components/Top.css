@@ -57,19 +57,23 @@
 .Top_menu a.btn.discord {
     background: #ec2b4f;
 }
-.Top_menu a:not(.btn):hover {
+.Top_menu a:not(.btn):hover,
+.Top_menu a:not(.btn):active,
+.Top_menu a:not(.btn):focus {
     color: #eb2b4f;
     text-decoration: none;
 }
-.Top_menu li:not(.btn_li):hover::after {
+.Top_menu li:not(.btn_li) a:hover::after,
+.Top_menu li:not(.btn_li) a:active::after,
+.Top_menu li:not(.btn_li) a:focus::after {
     content: "";
-    height: 2px;
+    height: 3px;
     width: 100%;
     position: relative;
     display: block;
     left: 0;
     right: 0;
-    bottom: -20px;
+    bottom: -44px;
     margin: auto;
     background: #eb2b4f;
 }

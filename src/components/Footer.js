@@ -20,7 +20,7 @@ class Footer extends Component {
             <a href="">Privacy Policy</a>
         </div>
         <div className="col-xs-12 col-sm-2 text-right">
-            <a href=""><img src={iconFacebook} alt="" /></a>
+            <a href="https://www.facebook.com/stream"><img src={iconFacebook} alt="" /></a>
             <a href=""><img src={iconTwitter} alt="" /></a>
             <a href=""><img src={iconInstagram} alt="" /></a>
         </div>

@@ -5,7 +5,7 @@
 
 .Team h1 {
     margin: 0 0 50px;
-    text-align: left;
+    text-align: center;
 }
 
 .Team .members {
@@ -14,7 +14,9 @@
 
 .Team .member {
     text-align: left;
-    margin-bottom: 80px;
+    margin: 0 auto 80px;
+    float: none;
+    display: inline-block;
 }
 
 .Team .member img {

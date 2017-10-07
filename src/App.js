@@ -24,11 +24,12 @@ class App extends Component {
                 <Top hasBg={true} />
 
                 <Route exact path="/" component={HomePage} />
-                <Route path="/whatwhy" component={WhatWhyPage} />
-                <Route path="/team" component={TeamPage} />
-                <Route path="/roadmap" component={RoadmapPage} />
-                <Route path="/faq" component={FAQPage} />
-                <Route path="/blog" component={BlogPage} />
+                <Route exact path="/stream-2/" component={HomePage} />
+                <Route path="/stream-2/whatwhy" component={WhatWhyPage} />
+                <Route path="/stream-2/team" component={TeamPage} />
+                <Route path="/stream-2/roadmap" component={RoadmapPage} />
+                <Route path="/stream-2/faq" component={FAQPage} />
+
 
                 <Footer />
             </div>
