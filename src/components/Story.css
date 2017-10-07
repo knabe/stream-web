@@ -31,6 +31,12 @@
     padding-right: 0;
 }
 
+@media (max-width: 1023px) {
+    .Story_content {
+        padding: 0;
+    }
+}
+
 @media (max-width: 767px) {
     .Story {
         padding: 45px 0 !important;
@@ -42,5 +48,9 @@
 
     .Story_content {
         padding: 45px 0;
+    }
+
+    .Story_image {
+        text-align: center !important;
     }
 }

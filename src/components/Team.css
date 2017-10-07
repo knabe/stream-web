@@ -17,6 +17,7 @@
     margin: 0 auto 80px;
     float: none;
     display: inline-block;
+    vertical-align: top;
 }
 
 .Team .member img {
