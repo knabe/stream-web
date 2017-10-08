@@ -18,7 +18,7 @@ class Team extends Component {
       <section className="Team container">
         <h1>Meet the Team</h1>
 
-        <div className="members row">
+        <div className="members">
             <div className="member col-xs-12 col-sm-6 col-md-3 text-left">
                 <img src={Ben} alt="" />
                 <p><b>Ben Yu: CEO</b></p>
