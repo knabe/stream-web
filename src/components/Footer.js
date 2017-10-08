@@ -16,8 +16,9 @@ class Footer extends Component {
             2017 Stream - All Rights Reserved
         </div>
           <div className="col-xs-12 col-sm-4 text-right">
-            <a href="">Terms & Conditions</a>
-            <a href="">Privacy Policy</a>
+            <a href="mailto:info@streamtoken.net">
+                info@streamtoken.net
+            </a>
         </div>
         <div className="col-xs-12 col-sm-2 text-right">
             <a href="https://www.facebook.com/stream" target="_blank" rel="noopener noreferrer">
