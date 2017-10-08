@@ -24,8 +24,7 @@ class App extends Component {
                 <Top hasBg={true} />
 
                 <Route exact path="/" component={HomePage} />
-                <Route exact path="/stream-2/" component={HomePage} />
-                <Route path="/stream-2/team" component={TeamPage} />
+                <Route path="/team" component={TeamPage} />
 
                 <Footer />
             </div>
