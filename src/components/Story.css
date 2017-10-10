@@ -1,0 +1,61 @@
+.Story {
+    margin: 0;
+    padding: 100px 0 !important;
+}
+
+.Story_content {
+    padding: 95px 0;
+}
+
+.Story_content h1 {
+    color: #272c69;
+    position: relative;
+    margin-bottom: 50px;
+}
+
+.Story_content h1:after {
+    content: " ";
+    display: block;
+    width: 40px;
+    height: 1px;
+    background: #000;
+    position: relative;
+    top: 25px;
+    left: 0;
+}
+.Story_content p {
+    font-weight: 300;
+}
+
+.Story_image {
+    padding-right: 0;
+}
+
+@media (max-width: 1023px) {
+    .Story_content {
+        padding: 0;
+    }
+}
+
+@media (max-width: 767px) {
+    .Story {
+        padding: 45px 0 !important;
+    }
+
+    .Story h1 {
+        margin-top: 0;
+    }
+
+    .Story .container {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .Story_content {
+        padding: 45px 0 0;
+    }
+
+    .Story_image {
+        text-align: center !important;
+    }
+}

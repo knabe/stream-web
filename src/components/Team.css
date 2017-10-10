@@ -1,0 +1,46 @@
+.Team {
+    margin: 0 auto;
+    padding: 140px 0 !important;
+}
+
+.Team h1 {
+    margin: 0 0 50px;
+    text-align: center;
+}
+
+.Team .members {
+    text-align: center;
+}
+
+.Team .member {
+    text-align: left;
+    margin: 0 auto 80px;
+    float: none;
+    display: inline-block;
+    vertical-align: top;
+    max-width: 300px;
+}
+
+.Team .member img {
+    margin-bottom: 20px;
+}
+
+.Team .member p {
+    margin: 0;
+    padding: 0;
+    display: block;
+}
+
+@media (max-width: 767px) {
+    .Team {
+        padding: 45px 0 !important;
+    }
+
+    .Team .member {
+        text-align: center;
+    }
+
+    .Team h1 {
+        text-align: center;
+    }
+}

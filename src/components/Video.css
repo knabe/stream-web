@@ -1,0 +1,13 @@
+.Video > div {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.Video.full_width {
+    padding: 0 !important;
+}
+.Video.full_width > img,
+.Video.full_width > div {
+    width: 100%;
+    max-width: 100%;
+}

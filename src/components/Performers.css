@@ -1,0 +1,41 @@
+.Performers {
+    padding: 140px 0 !important;
+}
+
+.Performers h1 {
+    position: relative;
+    margin: 110px auto 50px;
+}
+
+.Performers h1:after {
+    content: " ";
+    display: block;
+    width: 40px;
+    height: 1px;
+    background: #272c69;
+    position: relative;
+    top: 25px;
+    left: 0;
+}
+
+@media (max-width: 1023px) {
+    .Performers h1 {
+        margin-top: 0;
+    }
+}
+
+@media (max-width: 767px) {
+    .Performers {
+        padding: 0 !important;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .Performers > div {
+        margin: 45px auto 0;
+    }
+
+    .Performers > div:first-child {
+        margin-bottom: 45px;
+    }
+}

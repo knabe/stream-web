@@ -1,0 +1,39 @@
+.Connect {
+    padding: 160px 100px !important;
+}
+
+.Connect_info {
+    margin: 100px auto;
+}
+
+.Connect_links a {
+    margin-right: 20px;
+    font-size: 18px;
+    text-decoration: underline;
+}
+
+@media (max-width: 1023px) {
+    .Connect {
+        padding: 60px 15px !important;
+    }
+}
+
+
+@media (max-width: 767px) {
+    .Connect {
+        padding: 45px 15px !important;
+    }
+
+    .Connect_info {
+        margin: 45px auto 0;
+    }
+
+    .Connect_links {
+        margin-top: 45px;
+    }
+
+    .Connect_links a {
+        display: block;
+        margin-bottom: 10px;
+    }
+}
