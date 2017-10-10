@@ -63,6 +63,8 @@
     color: #eb2b4f;
     text-decoration: none;
 }
+activeLink
+.Top_menu li:not(.btn_li) .activeLink::after,
 .Top_menu li:not(.btn_li) a:hover::after,
 .Top_menu li:not(.btn_li) a:active::after,
 .Top_menu li:not(.btn_li) a:focus::after {

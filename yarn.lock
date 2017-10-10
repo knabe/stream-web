@@ -5257,6 +5257,10 @@ react-error-overlay@^2.0.2:
     settle-promise "1.0.0"
     source-map "0.5.6"
 
+react-html5video@^2.4.0:
+  version "2.4.0"
+  resolved "https://registry.yarnpkg.com/react-html5video/-/react-html5video-2.4.0.tgz#255f791f5a1b342d9a3f3a5e1df0f44ddc88aaa0"
+
 react-overlays@^0.7.0:
   version "0.7.1"
   resolved "https://registry.yarnpkg.com/react-overlays/-/react-overlays-0.7.1.tgz#0b84708d8007082163c47155a2f60a0858c7a3c7"
