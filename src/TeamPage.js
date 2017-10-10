@@ -4,8 +4,6 @@ import React, { Component } from 'react';
 import Story from './components/Story';
 import Team from './components/Team';
 
-// import './TeamPage.css';
-
 class TeamPage extends Component {
     render() {
         return (

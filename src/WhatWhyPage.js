@@ -7,8 +7,6 @@ import Solution from './components/Solution';
 import How from './components/How';
 import Connect from './components/Connect';
 
-// import './WhatWhyPage.css';
-
 class WhatWhyPage extends Component {
     render() {
         return (

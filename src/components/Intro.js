@@ -5,10 +5,13 @@ import img from '../images/intro.png';
 
 import './Intro.css';
 
+ReactPixel.init('2357465807812225');
+
 class Intro extends Component {
   track() {
-    ReactPixel.trackCustom('trackClick', 'NewsletterSignup')
+    ReactPixel.trackCustom('trackClick', 'NewsletterSignup');
   }
+
   render() {
     return (
       <div className="Intro container">

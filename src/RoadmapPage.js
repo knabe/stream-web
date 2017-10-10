@@ -3,8 +3,6 @@ import React, { Component } from 'react';
 // Roadmap modules
 import Roadmap from './components/Roadmap';
 
-// import './RoadmapPage.css';
-
 class RoadmapPage extends Component {
     render() {
         return (
