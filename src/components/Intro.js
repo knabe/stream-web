@@ -1,10 +1,14 @@
 import React, { Component } from 'react';
+import ReactPixel from 'react-facebook-pixel';
 
 import img from '../images/intro.png';
 
 import './Intro.css';
 
 class Intro extends Component {
+  track() {
+    ReactPixel.trackCustom('trackClick', 'NewsletterSignup')
+  }
   render() {
     return (
       <div className="Intro container">
@@ -31,8 +35,10 @@ class Intro extends Component {
 
                     <input
                         type="submit"
-                        value="Sign Up"
-                        className="btn" />
+                        defaultValue="Sign Up"
+                        className="btn"
+                        id="newsletter-btn"
+                        onClick={this.track} />
                 </div>
             </form>
 
