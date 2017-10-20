@@ -5,11 +5,11 @@ import App from './App';
 
 import './index.css';
 
-import registerServiceWorker from './registerServiceWorker';
+// import registerServiceWorker from './registerServiceWorker';
 
 ReactDOM.render(
     <App />,
     document.getElementById('root')
 );
 
-registerServiceWorker();
+// registerServiceWorker();

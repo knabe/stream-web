@@ -5,10 +5,6 @@ import Ben from '../images/ben.png';
 import Greg from '../images/greg.png';
 import Simar from '../images/simar.png';
 import Chris from '../images/chris.png';
-// import Ava from '../images/ava.jpg';
-// import Travis from '../images/travis.png';
-// import Vicki from '../images/vicki.jpg';
-// import Eric from '../images/eric.png';
 
 import './Team.css';
 

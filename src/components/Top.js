@@ -29,8 +29,12 @@ class Top extends Component {
                             </a>
                         </li>
                         <li className="btn_li">
-                            <a href="http://discord.streamtoken.net/"       className="btn discord">
-                                Join Discord
+                            <a
+                                href="https://t.me/streamtokencommunity"
+                                className="btn telegram"
+                                target="_blank"
+                                rel="noopener noreferrer">
+                                Join Telegram
                             </a>
                         </li>
                     </ul>

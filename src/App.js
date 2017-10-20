@@ -5,10 +5,6 @@ import ReactPixel from 'react-facebook-pixel';
 // Pages
 import HomePage from './HomePage';
 import TeamPage from './TeamPage';
-// import WhatWhyPage from './WhatWhyPage';
-// import RoadmapPage from './RoadmapPage';
-// import FAQPage from './FAQPage';
-// import BlogPage from './BlogPage';
 
 // General/Home modules
 import Top from './components/Top';
@@ -17,12 +13,11 @@ import Footer from './components/Footer';
 import './App.css';
 
 // FB Pixel Implementation + pageView
-ReactPixel.init('2357465807812225');
+ReactPixel.init('1076630789107052');
 ReactPixel.pageView();
 
 class App extends Component {
   render() {
-
     return (
         <Router>
             <div className="App">
