@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import ReactHtmlParser from 'react-html-parser';
 
 import DefaultImg from '../images/performers.svg';

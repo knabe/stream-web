@@ -2,7 +2,7 @@ import React from 'react';
 
 import './Terms.css';
 
-import PieChart from '../images/PieChart.png';
+// import PieChart from '../images/PieChart.png';
 
 const Terms2 = () => (
     <section className="Terms grey_bg">

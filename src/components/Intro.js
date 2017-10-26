@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import ReactPixel from 'react-facebook-pixel';
+// import ReactPixel from 'react-facebook-pixel';
 
 import img from '../images/intro.png';
 

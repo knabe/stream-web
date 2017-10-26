@@ -9,7 +9,7 @@ class Subscribe extends Component {
     render() {
         return (
             <div id="mc_embed_signup">
-                <form action="https://streamtoken.us16.list-manage.com/subscribe/post?u=49ecf8f7f89364a4855ae2e16&amp;id=526955045c" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+                <form action="https://streamtoken.us16.list-manage.com/subscribe/post?u=49ecf8f7f89364a4855ae2e16&amp;id=526955045c" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" className="validate" target="_blank" noValidate>
 
                     <div id="mc_embed_signup_scroll">
                         <label htmlFor="mce-EMAIL">
@@ -29,7 +29,7 @@ class Subscribe extends Component {
                             <input
                                 type="text"
                                 name="b_49ecf8f7f89364a4855ae2e16_526955045c"
-                                tabindex="-1"
+                                tabIndex="-1"
                                 defaultValue="" />
                         </div>
 

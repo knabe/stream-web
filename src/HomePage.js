@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 
 // Home modules
 import Header from './components/Header';
@@ -11,7 +11,6 @@ import Terms3 from './components/Terms3';
 import News from './components/News';
 import SubscribeFooter from './components/SubscribeFooter';
 
-import PerformersImg from './images/performers.svg';
 import SolutionImg from './images/solution.svg';
 import CRXImg from './images/crx.png';
 import StoryImg from './images/story.svg';
