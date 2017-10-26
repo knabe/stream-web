@@ -1,0 +1,57 @@
+.SubscribeFooter {
+    background-image: linear-gradient(to top, #6f2a82, #272c69);
+    padding: 75px 0 100px;
+}
+
+.SubscribeFooter h2 {
+    color: #fff;
+    margin: 0 auto;
+    font-size: 40px;
+    font-weight: 400;
+}
+
+.SubscribeFooter input[type="email"] {
+    border: none;
+    padding: 14px 20px;
+    border-radius: 6px 0 0 6px;
+    font-size: 16px;
+    min-width: 260px;
+    width: 360px;
+    max-width: 96%;
+    vertical-align: middle;
+}
+
+.SubscribeFooter label {
+    font-weight: 300;
+    color: #dadada;
+    font-size: 16px;
+    display: block;
+    margin: 30px auto 50px;
+}
+
+.SubscribeFooter .btn {
+    border: none;
+    border-radius: 0 6px 6px 0;
+    background: #49c3cf;
+    color: #fff;
+    padding: 15px 30px;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 14px;
+    max-width: 39%;
+    vertical-align: middle;
+}
+
+@media (max-width: 540px) {
+    .SubscribeFooter input[type="email"] {
+        display: block;
+        border-radius: 6px;
+        margin: 0 auto;
+    }
+    .SubscribeFooter .btn {
+        display: block;
+        border-radius: 6px;
+        margin: 15px auto 0;
+        max-width: 100%;
+    }
+}

@@ -7,6 +7,7 @@ import HomePage from './HomePage';
 import TeamPage from './TeamPage';
 
 // General/Home modules
+import PreSaleBanner from './components/PreSaleBanner';
 import Top from './components/Top';
 import Footer from './components/Footer';
 
@@ -21,6 +22,7 @@ class App extends Component {
     return (
         <Router>
             <div className="App">
+                <PreSaleBanner />
                 <Top hasBg={true} />
 
                 <Switch>

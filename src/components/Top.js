@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Link, NavLink } from 'react-router-dom';
+import Scrollchor from 'react-scrollchor';
 
 import logo from '../images/logo.svg'
 
@@ -8,7 +9,6 @@ import './Top.css';
 class Top extends Component {
   render() {
     var elClass = this.props.hasBg ? 'Top row solid_bg' : 'Top row';
-
 
     return (
       <div className={elClass}>
@@ -19,15 +19,35 @@ class Top extends Component {
                 <div className="Top_menu col-xs-12 col-md-8 text-right">
                     <ul>
                         <li>
-                            <NavLink to={`${process.env.PUBLIC_URL}/team`}>
-                                Team
-                            </NavLink>
+                            <Scrollchor
+                                to="#tokensale"
+                                animate={{duration: 600}}>
+                                Token Sale
+                            </Scrollchor>
                         </li>
                         <li>
-                            <a href="https://blog.streamtoken.net/">
+                            <Scrollchor
+                                to="#about"
+                                animate={{duration: 600}}>
+                                About
+                            </Scrollchor>
+                        </li>
+                        <li>
+                            <Scrollchor
+                                to="#team"
+                                animate={{duration: 600}}>
+                                Team
+                            </Scrollchor>
+                        </li>
+                        <li>
+                            <a
+                                href="https://blog.streamtoken.net/"
+                                target="_blank"
+                                rel="noopener noreferrer">
                                 Blog
                             </a>
                         </li>
+
                         <li className="btn_li">
                             <a
                                 href="https://t.me/streamtokencommunity"

@@ -4,6 +4,7 @@ import logo from '../images/logo_simple.svg';
 import iconFacebook from '../images/facebook.svg';
 import iconTwitter from '../images/twitter.svg';
 import iconInstagram from '../images/instagram.svg';
+import iconTelegram from '../images/telegram.svg';
 
 import './Footer.css';
 
@@ -29,6 +30,9 @@ class Footer extends Component {
             </a>
             <a href="https://www.instagram.com/streamtoken" target="_blank" rel="noopener noreferrer">
                 <img src={iconInstagram} alt="" />
+            </a>
+            <a href="https://t.me/streamtokencommunity" target="_blank" rel="noopener noreferrer">
+                <img src={iconTelegram} alt="" />
             </a>
         </div>
       </section>

@@ -1,0 +1,80 @@
+.Timeline {
+    padding: 130px 15px !important;
+    background-image: linear-gradient(to top, #6f2a82, #272c69);
+    color: #fff;
+    font-family: "Work Sans", sans-serif;
+}
+
+.Timeline h1 {
+    position: relative;
+    margin: 0 auto 100px;
+}
+
+.Timeline h1::after {
+    content: " ";
+    display: block;
+    width: 40px;
+    height: 1px;
+    background: #fff;
+    position: relative;
+    top: 25px;
+    left: calc(50% - 20px);
+}
+
+.Timeline img {
+    font-family: "Work Sans", sans-serif;
+}
+
+.Timeline .line {
+    position: relative;
+}
+
+.Timeline .line_segment {
+    padding: 15px 0;
+    font-size: 20px;
+}
+.Timeline .line_segment::before {
+    content: " ";
+    background: #6f2a82;
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    border: 3px solid #fff;
+    position: absolute;
+    top: -35px;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+.Timeline .line_segment:first-of-type::before {
+    background: #fff;
+}
+.Timeline .line_segment b {
+    margin: 0 auto;
+    max-width: 250px;
+    display: block;
+}
+
+
+.Timeline a.btn {
+    background: #49c3cf;
+    padding: 5px 10px;
+    font-weight: 700;
+    vertical-align: middle;
+    position: relative;
+    color: #fff;
+}
+
+.Timeline a.btn:hover,
+.Timeline a.btn:active,
+.Timeline a.btn:focus {
+    color: #333;
+    text-decoration: none;
+}
+
+@media (max-width: 479px) {
+    .Timeline .line_segment {
+        padding: 15px 0 30px;
+        font-size: 16px;
+    }
+}

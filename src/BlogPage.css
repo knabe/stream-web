@@ -21,7 +21,7 @@
 }
 
 .BlogPage_posts {
-    padding: 100px 0 !important;
+    padding: 5px 0 25px !important;
 }
 
 .BlogPage_post {
@@ -30,6 +30,7 @@
     text-align: left;
     font-size: 16px;
     width: 300px;
+    vertical-align: top;
 }
 
 .BlogPage_post a {

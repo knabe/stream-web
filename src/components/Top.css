@@ -2,7 +2,7 @@
     max-width: 100%;
     color: #fff;
     margin: 0;
-    padding: 25px 0;
+    padding: 50px 0;
 }
 
 .Top.home {
@@ -55,12 +55,12 @@
     position: relative;
 }
 .Top_menu a.btn.telegram {
-    background: #ec2b4f;
+    background: #49c3cf;
 }
 .Top_menu a:not(.btn):hover,
 .Top_menu a:not(.btn):active,
 .Top_menu a:not(.btn):focus {
-    color: #eb2b4f;
+    color: #49c3cf;
     text-decoration: none;
 }
 .Top_menu li:not(.btn_li) .activeLink::after,
@@ -76,7 +76,7 @@
     right: 0;
     bottom: -44px;
     margin: auto;
-    background: #eb2b4f;
+    background: #49c3cf;
 }
 
 .Top.solid_bg {
@@ -104,5 +104,13 @@
 
     .Top_menu li:not(.btn_li):hover::after {
         display: none;
+    }
+}
+
+@media (max-width: 479px) {
+    .Top_menu { height: 80px; }
+
+    .Top_brand img, .Top_brand span {
+        vertical-align: top;
     }
 }

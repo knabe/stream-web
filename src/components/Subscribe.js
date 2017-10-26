@@ -9,15 +9,7 @@ class Subscribe extends Component {
     render() {
         return (
             <div id="mc_embed_signup">
-                <form
-                    action="https://streamtoken.us17.list-manage.com/subscribe/post?u=b09345b7e4f1c96cf9b418ead&amp;id=5ce52fd85b"
-                    method="post"
-                    id="mc-embedded-subscribe-form"
-                    name="mc-embedded-subscribe-form"
-                    className="validate"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    novalidate>
+                <form action="https://streamtoken.us16.list-manage.com/subscribe/post?u=49ecf8f7f89364a4855ae2e16&amp;id=526955045c" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
 
                     <div id="mc_embed_signup_scroll">
                         <label htmlFor="mce-EMAIL">
@@ -36,7 +28,7 @@ class Subscribe extends Component {
                         <div style={{position: 'absolute', left: -5000 + 'px'}} aria-hidden="true">
                             <input
                                 type="text"
-                                name="b_b09345b7e4f1c96cf9b418ead_5ce52fd85b"
+                                name="b_49ecf8f7f89364a4855ae2e16_526955045c"
                                 tabindex="-1"
                                 defaultValue="" />
                         </div>

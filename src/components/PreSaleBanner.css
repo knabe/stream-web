@@ -1,0 +1,31 @@
+.PreSaleBanner {
+    font-weight: 600;
+    font-family: "Work Sans", sans-serif;
+    font-size: 18px;
+    background: #49c3cf;
+    color: #272c69;
+    padding: 13px;
+}
+
+.PreSaleBanner .btn {
+    background: #272c69;
+    color: #fff;
+    font-size: 18px;
+    margin-left: 25px;
+    transition: .3s;
+}
+
+.PreSaleBanner .btn:hover {
+    opacity: 0.8;
+}
+
+@media (max-width: 479px) {
+    .PreSaleBanner .btn {
+        background: #272c69;
+        color: #fff;
+        font-size: 18px;
+        margin: 10px auto 0;
+        display: block;
+        transition: .3s;
+    }
+}
