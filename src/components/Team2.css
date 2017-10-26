@@ -69,3 +69,9 @@
         margin: 0 auto;
     }
 }
+
+@media (max-width: 479px) {
+    .Team2 .bio {
+        padding-top: 15px;
+    }
+}
