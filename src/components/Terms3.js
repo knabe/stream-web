@@ -16,12 +16,12 @@ const Terms3 = () => (
             <h1 className="text-center">Notable backers</h1>
 
             <div>
-                <img src={BPK} alt="" />
-                <img src={Fenbushi} alt="" />
-                <img src={Zhen} alt="" />
                 <img src={Pantera} alt="" />
-                <img src={FBG} alt="" />
+                <img src={Fenbushi} alt="" />
                 <img src={CoinFund} alt="" />
+                <img src={BPK} alt="" />
+                <img src={Zhen} alt="" />
+                <img src={FBG} alt="" />
                 <img src={InBlockchain} alt="" />
             </div>
         </div>

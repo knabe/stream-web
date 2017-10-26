@@ -13,3 +13,29 @@
     top: 25px;
     left: calc(50% - 20px);
 }
+
+
+.News_image_cont {
+    background: #f7f7f7;
+    position: relative;
+    min-height: 220px;
+    margin-bottom: 5px;
+    transition: .3s;
+}
+.News_image_cont:hover {
+    background: #49c3cf;
+}
+
+.News_image_cont img {
+    max-width: 200px;
+    max-height: 160px;
+    position: absolute;
+    background: none;
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: auto;
+    min-height: auto;
+}
