@@ -25,33 +25,33 @@ ReactGA.set({ page: window.location.pathname + window.location.search })
 ReactGA.pageview(window.location.pathname + window.location.search)
 
 export const logPageView = () => {
-    ReactPixel.pageView()
-    ReactGA.set({ page: window.location.pathname + window.location.search })
-    ReactGA.pageview(window.location.pathname + window.location.search)
+  ReactPixel.pageView()
+  ReactGA.set({ page: window.location.pathname + window.location.search })
+  ReactGA.pageview(window.location.pathname + window.location.search)
 }
 
 export const history = createBrowserHistory()
 history.listen((location, action) => {
-    logPageView()
+  logPageView()
 })
 
 class App extends React.Component {
 
   public render() {
     return (
-        <Router history={history}>
-            <div className="App">
-                <PreSaleBanner />
-                <Top hasBg={true} />
+      <Router history={history}>
+        <div className="App">
+          <PreSaleBanner />
+          <Top hasBg={true} />
 
-                <Switch>
-                    <Route exact path={`${process.env.PUBLIC_URL}/`} component={HomePage} />
-                    <Route path={`${process.env.PUBLIC_URL}/team`} component={TeamPage} />
-                </Switch>
+          <Switch>
+            <Route exact path={`${process.env.PUBLIC_URL}/`} component={HomePage} />
+            <Route path={`${process.env.PUBLIC_URL}/team`} component={TeamPage} />
+          </Switch>
 
-                <Footer />
-            </div>
-        </Router>
+          <Footer />
+        </div>
+      </Router>
     )
   }
 }

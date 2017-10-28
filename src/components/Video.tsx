@@ -7,8 +7,8 @@ import * as video from '../images/DKVideo.mp4'
 import './Video.css'
 
 // <video controls>
-//     <source src={video} type="video/mp4"/>
-//     Your browser is not supported. Please use latest version of Chrome or Firefox and try again.
+//   <source src={video} type="video/mp4"/>
+//   Your browser is not supported. Please use latest version of Chrome or Firefox and try again.
 // </video>
 
 export type VideoProps = {
@@ -21,9 +21,9 @@ class Video extends React.Component<VideoProps> {
 
     return (
       <section className={'Video col-xs-12 ' + widthClass}>
-          <Movie controls={['PlayPause', 'Seek', 'Volume', 'Fullscreen']}>
-              <source src={video} type="video/mp4" />
-          </Movie>
+        <Movie controls={['PlayPause', 'Seek', 'Volume', 'Fullscreen']}>
+          <source src={video} type="video/mp4" />
+        </Movie>
       </section>
     )
   }

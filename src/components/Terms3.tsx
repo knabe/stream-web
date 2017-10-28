@@ -11,21 +11,21 @@ import * as Pantera from '../images/pantera-white.png'
 import * as Zhen from '../images/zhen.png'
 
 const Terms3 = () => (
-    <section className="Terms Terms3">
-        <div className="container">
-            <h1 className="text-center">Notable backers</h1>
+  <section className="Terms Terms3">
+    <div className="container">
+      <h1 className="text-center">Notable backers</h1>
 
-            <div>
-                <img src={Pantera} alt="" />
-                <img src={Fenbushi} alt="" />
-                <img src={CoinFund} alt="" />
-                <img src={BPK} alt="" />
-                <img src={Zhen} alt="" />
-                <img src={FBG} alt="" />
-                <img src={InBlockchain} alt="" />
-            </div>
-        </div>
-    </section>
+      <div>
+        <img src={Pantera} alt="" />
+        <img src={Fenbushi} alt="" />
+        <img src={CoinFund} alt="" />
+        <img src={BPK} alt="" />
+        <img src={Zhen} alt="" />
+        <img src={FBG} alt="" />
+        <img src={InBlockchain} alt="" />
+      </div>
+    </div>
+  </section>
 )
 
 export default Terms3

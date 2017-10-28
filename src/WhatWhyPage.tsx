@@ -8,24 +8,24 @@ import How from './components/How'
 import Video from './components/Video'
 
 class WhatWhyPage extends React.Component {
-    public render() {
-        return (
-            <div className="WhatWhy_page">
-                <Video fullWidth />
+  public render() {
+    return (
+      <div className="WhatWhy_page">
+        <Video fullWidth />
 
-                <div className="container">
-                    {/* <Performers />
-                    <Solution /> */}
-                </div>
+        <div className="container">
+          {/* <Performers />
+          <Solution /> */}
+        </div>
 
-                <How />
+        <How />
 
-                <div className="container">
-                    <Connect />
-                </div>
-            </div>
-        )
-    }
+        <div className="container">
+          <Connect />
+        </div>
+      </div>
+    )
+  }
 }
 
 export default WhatWhyPage

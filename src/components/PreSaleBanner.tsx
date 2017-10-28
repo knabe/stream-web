@@ -4,14 +4,14 @@ import * as React from 'react'
 import './PreSaleBanner.css'
 
 class PreSaleBanner extends React.Component {
-    public render() {
-        return (
-            <div className="PreSaleBanner">
-                <span>PRESALE OPEN NOW</span>
-                <a className="btn" href="https://streamtoken.typeform.com/to/QlQ6Gp">EXPRESS INTEREST</a>
-            </div>
-        )
-    }
+  public render() {
+    return (
+      <div className="PreSaleBanner">
+        <span>PRESALE OPEN NOW</span>
+        <a className="btn" href="https://streamtoken.typeform.com/to/QlQ6Gp">EXPRESS INTEREST</a>
+      </div>
+    )
+  }
 }
 
 export default PreSaleBanner
