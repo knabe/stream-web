@@ -9,7 +9,7 @@ class Header extends React.Component {
   public render() {
     return (
       <section className="Header row">
-        <Intro />
+      <Intro />
       </section>
     )
   }
