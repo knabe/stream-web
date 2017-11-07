@@ -1,5 +1,5 @@
 import * as React from 'react'
-import ReactPixel from 'react-facebook-pixel'
+import * as ReactPixel from 'react-facebook-pixel'
 
 class Subscribe extends React.Component {
   private email: any
@@ -12,7 +12,12 @@ class Subscribe extends React.Component {
   public render() {
     return (
       <div id="mc_embed_signup">
-        <form action="https://streamtoken.us16.list-manage.com/subscribe/post?u=49ecf8f7f89364a4855ae2e16&amp;id=526955045c" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" className="validate" target="_blank" noValidate>
+        <form
+          action="https://streamtoken.us16.list-manage.com/subscribe/post?u=49ecf8f7f89364a4855ae2e16&amp;id=526955045c"
+          method="post" id="mc-embedded-subscribe-form"
+          name="mc-embedded-subscribe-form" className="validate"
+          target="_blank" noValidate
+        >
 
           <div id="mc_embed_signup_scroll">
             <label htmlFor="mce-EMAIL">

@@ -1,5 +1,5 @@
 import * as React from 'react'
-import ReactPixel from 'react-facebook-pixel'
+import * as ReactPixel from 'react-facebook-pixel'
 
 import './SubscribeFooter.css'
 
