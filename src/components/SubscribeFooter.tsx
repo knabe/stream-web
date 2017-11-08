@@ -1,5 +1,5 @@
 import * as React from 'react'
-import ReactPixel from 'react-facebook-pixel'
+import * as ReactPixel from 'react-facebook-pixel'
 
 import './SubscribeFooter.css'
 
@@ -7,8 +7,7 @@ class SubscribeFooter extends React.Component {
   private email: any
 
   public trackSubscribe() {
-    ReactPixel.track('track', 'Lead')
-    ReactPixel.trackCustom('trackClick', 'NewsletterSignup')
+    ReactPixel.track('Lead', {content_name: 'NewsletterSignup'})
   }
 
   public render() {

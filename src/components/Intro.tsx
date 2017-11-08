@@ -1,6 +1,4 @@
 import * as React from 'react'
-// import ReactPixel from 'react-facebook-pixel';
-
 import * as img from '../images/intro.png'
 
 import Subscribe from './Subscribe'
