@@ -24,7 +24,6 @@ const Timeline = () => (
 
         <div className="col-xs-4 line_segment">
           Public Token Sale
-          <br /><b>Date will be announced Friday 10th Nov</b>
         </div>
 
         <div className="col-xs-12">

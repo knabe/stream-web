@@ -3,12 +3,16 @@ import * as React from 'react'
 
 import './PreSaleBanner.css'
 
+public trackPresaleInterest() {
+  ReactPixel.track('Lead', {content_name: 'PresaleInterest'})
+}
+
 class PreSaleBanner extends React.Component {
   public render() {
     return (
-      <div className="PreSaleBanner">
+      <div classNam e="PreSaleBanner">
         <span>PRESALE OPEN NOW</span>
-        <a className="btn" href="https://streamtoken.typeform.com/to/QlQ6Gp">EXPRESS INTEREST</a>
+        <a className="btn" href="https://streamtoken.typeform.com/to/QlQ6Gp" onClick={this.trackPresaleInterest} >EXPRESS INTEREST</a>
       </div>
     )
   }

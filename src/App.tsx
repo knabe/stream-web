@@ -16,7 +16,7 @@ import Top from './components/Top'
 import './App.css'
 
 // FB Pixel implementation + pageView
-ReactPixel.init('1076630789107052')
+ReactPixel.init('2357465807812225')
 ReactPixel.pageView()
 
 // Google Analytics implementation
