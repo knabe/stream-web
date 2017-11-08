@@ -1,0 +1,28 @@
+.Backers .container {
+    max-width: 1200px;
+    width: 100%;
+}
+.Backers img {
+    width: 250px;
+    vertical-align: middle;
+    margin: 20px 60px;
+}
+
+
+.Backers h1 {
+    text-align: center;
+    position: relative;
+    margin: 0 auto 85px;
+    font-weight: 300;
+}
+
+.Backers h1::after {
+    content: " ";
+    display: block;
+    width: 40px;
+    height: 1px;
+    background: #272c69;
+    position: relative;
+    top: 25px;
+    left: calc(50% - 20px) !important;
+}

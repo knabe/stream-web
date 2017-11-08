@@ -6,7 +6,12 @@ import * as logo from '../images/logo.svg'
 
 import './Top.css'
 
-class Top extends React.Component<{hasBg?: boolean}> {
+export type MenuProps = {
+  hasBg?: boolean,
+  termsPrivacy?: boolean,
+}
+
+class Top extends React.Component<MenuProps> {
   public render() {
     const elClass = this.props.hasBg ? 'Top row solid_bg' : 'Top row'
 
@@ -18,30 +23,30 @@ class Top extends React.Component<{hasBg?: boolean}> {
           </div>
             <div className="Top_menu col-xs-12 col-md-8 text-right">
               <ul>
+                { !this.props.termsPrivacy ?
                 <li>
-                  <Scrollchor
-                    to="#tokensale"
-                    animate={{ duration: 600 }}
-                  >
+                  <Scrollchor to="#tokensale" animate={{ duration: 600 }}>
                     Token Sale
                   </Scrollchor>
                 </li>
+                : null }
+                { !this.props.termsPrivacy ?
                 <li>
-                  <Scrollchor
-                    to="#about"
-                    animate={{ duration: 600 }}
-                  >
+                  <Scrollchor to="#about" animate={{ duration: 600 }}>
                     About
                   </Scrollchor>
                 </li>
+                : null }
+                { !this.props.termsPrivacy ?
                 <li>
-                  <Scrollchor
-                    to="#team"
-                    animate={{ duration: 600 }}
-                  >
+                  <Scrollchor to="#team" animate={{ duration: 600 }}>
                     Team
                   </Scrollchor>
                 </li>
+                : null }
+                { this.props.termsPrivacy ?
+                  <li><Link to={`/`}>Home</Link></li>
+                : null }
                 <li>
                   <a
                     href="https://blog.streamtoken.net/"

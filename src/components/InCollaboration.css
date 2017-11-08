@@ -1,0 +1,35 @@
+.InCollaboration.grey_bg {
+    margin: 0 auto;
+    padding: 100px 0 150px !important;
+}
+
+.InCollaboration h1 {
+    text-align: center;
+    position: relative;
+    margin: 0 auto 85px;
+    font-weight: 300;
+}
+
+.InCollaboration h1::after {
+    content: " ";
+    display: block;
+    width: 40px;
+    height: 1px;
+    background: #272c69;
+    position: relative;
+    top: 25px;
+    left: calc(50% - 20px);
+}
+
+.InCollaboration .member img {
+  margin-bottom: 20px;
+}
+@media (max-width: 767px) {
+  .InCollaboration {
+      padding: 45px 0 !important;
+  }
+
+  .InCollaboration h1 {
+      text-align: center;
+  }
+}

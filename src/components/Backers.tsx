@@ -1,17 +1,17 @@
 import * as React from 'react'
 
-import './Terms.css'
+import './Backers.css'
 
-import * as BPK from '../images/BPK.jpg'
+import * as BPK from '../images/BPK.png'
 import * as CoinFund from '../images/coinfund-logo-padded.png'
-import * as FBG from '../images/FBG.jpg'
+import * as FBG from '../images/FBG.png'
 import * as Fenbushi from '../images/fenbushi_logo.png'
 import * as InBlockchain from '../images/in_blockchain.png'
 import * as Pantera from '../images/pantera-white.png'
 import * as Zhen from '../images/zhen.png'
 
-const Terms3 = () => (
-  <section className="Terms Terms3">
+const Backers = () => (
+  <section className="Terms Backers grey_bg">
     <div className="container">
       <h1 className="text-center">Notable backers</h1>
 
@@ -28,4 +28,4 @@ const Terms3 = () => (
   </section>
 )
 
-export default Terms3
+export default Backers

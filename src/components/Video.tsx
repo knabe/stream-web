@@ -6,11 +6,6 @@ import * as video from '../images/DKVideo.mp4'
 
 import './Video.css'
 
-// <video controls>
-//   <source src={video} type="video/mp4"/>
-//   Your browser is not supported. Please use latest version of Chrome or Firefox and try again.
-// </video>
-
 export type VideoProps = {
   fullWidth?: boolean,
 }

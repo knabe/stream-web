@@ -22,6 +22,13 @@ ol {
     padding-left: 15px;
 }
 
+.row {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+}
+
 .grey_bg {
     background: #f7f7f7;
     padding: 150px 15px !important;
@@ -45,4 +52,53 @@ hr {
 
 img {
     max-width: 100%;
+}
+
+
+
+
+
+
+
+.Terms, .Privacy {
+  font-family: "Work Sans", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  padding: 50px 0 !important;
+}
+
+.Terms p, .Privacy p {
+  font-family: "Work Sans", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  margin: 0 0 10px;
+}
+
+.Terms h3, .Privacy h3 {
+  margin: 45px 0 45px;
+}
+
+.Terms ul {
+  margin: 25px 0 50px;
+}
+
+.Privacy ul {
+  margin: 15px 0 25px;
+}
+
+.Terms h1, .Privacy h1 {
+    position: relative;
+    margin: 0 auto 85px;
+    font-weight: 300;
+}
+
+.Terms h1::after, .Privacy h1::after {
+    content: " ";
+    display: block;
+    width: 40px;
+    height: 1px;
+    background: #272c69;
+    position: relative;
+    top: 40px;
+    left: 0;
 }

@@ -1,0 +1,58 @@
+.Advisors.grey_bg {
+    margin: 0 auto;
+    padding: 100px 0 0 !important;
+}
+
+.Advisors h1 {
+    margin: 0 auto 85px;
+    text-align: center;
+    position: relative;
+}
+
+.Advisors h1::after {
+    content: " ";
+    display: block;
+    width: 40px;
+    height: 1px;
+    background: #272c69;
+    position: relative;
+    top: 25px;
+    left: calc(50% - 20px);
+}
+
+.Advisors .members {
+    text-align: center;
+}
+
+.Advisors .member {
+    text-align: left;
+    margin: 0 auto 80px;
+    float: none;
+    display: inline-block;
+    vertical-align: top;
+    max-width: 300px;
+}
+
+.Advisors .member img {
+    margin-bottom: 20px;
+}
+
+.Advisors .member p {
+    margin: 0;
+    padding: 0;
+    display: block;
+}
+
+@media (max-width: 767px) {
+    .Advisors {
+        padding: 45px 0 !important;
+    }
+
+    .Advisors .member {
+        text-align: center;
+    }
+
+    .Advisors h1 {
+        text-align: center;
+    }
+}

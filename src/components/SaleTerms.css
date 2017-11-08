@@ -1,21 +1,17 @@
-.Terms.grey_bg {
+.SaleTerms.grey_bg {
     padding: 120px 0 100px !important;
 }
-.Terms img {
+.SaleTerms img {
     max-width: 330px;
 }
 
-.Terms h1 {
+.SaleTerms h1 {
     position: relative;
     margin: 0 auto 85px;
     font-weight: 300;
 }
 
-.Terms h2 {
-    font-weight: 400;
-}
-
-.Terms h1::after {
+.SaleTerms h1::after {
     content: " ";
     display: block;
     width: 40px;
@@ -26,31 +22,24 @@
     left: calc(50% - 20px);
 }
 
-.Terms p {
+.SaleTerms h2 {
+  font-weight: 400;
+}
+
+.SaleTerms p {
     font-size: 18px;
     margin: 0 0 30px;
 }
-.Terms ul {
+.SaleTerms ul {
     margin-bottom: 30px;
     margin-top: -20px;
 }
-.Terms li {
+.SaleTerms li {
     font-size: 16px;
 }
 
-
-.Terms.Terms2.grey_bg {
-    padding: 70px auto;
-}
-
-
-.Terms3 .container {
-    max-width: 970px;
-    width: 100%;
-}
-.Terms3 img {
-    max-width: 220px;
-    max-height: 75px;
-    vertical-align: middle;
-    margin: 15px 30px;
+@media (max-width: 768px) {
+  .SaleTerms .pie {
+      margin-bottom: 60px;
+  }
 }

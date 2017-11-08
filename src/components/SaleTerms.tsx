@@ -1,30 +1,28 @@
 import * as React from 'react'
 
-import './Terms.css'
+import './SaleTerms.css'
 
 import * as PieChart from '../images/PieChart.png'
 
-const Terms = () => (
-  <section className="Terms grey_bg">
+const SaleTerms = () => (
+  <section className="SaleTerms">
     <div className="container">
       <h1 className="text-center">Token Sale Terms</h1>
 
-      <div className="col-xs-12 col-md-6">
+      <div className="col-xs-12 col-md-6 pie">
         <img src={PieChart} alt="" />
       </div>
 
       <div className="col-xs-12 col-md-6 text-left">
 
-        <p>Crowdsale is capped at <b>$33 million</b> USD</p>
+        <p>Public Token Sale is capped at <b>$33 million USD</b></p>
         <p>Total token supply is approximately <b>12 billion</b></p>
         <p>Token distribution:</p>
         <ul>
           <li>33% Token Sale</li>
           <li>25% Customer acquisition</li>
           <li>25% Company development</li>
-          <li>10% Stream founders</li>
-          <li>5% Stream Employees</li>
-          <li>2% Stream Advisors</li>
+          <li>17% Team</li>
         </ul>
         <p>ERC20 Token, directly purchasable with ether</p>
         <p>The value of STC is fixed at $0.01 USD until 11/16, and then it is fixed to [$0.01 USD * [ETH / USD exchange rate on 11/16]] ETH</p>
@@ -33,4 +31,4 @@ const Terms = () => (
   </section>
 )
 
-export default Terms
+export default SaleTerms

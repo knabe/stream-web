@@ -7,6 +7,8 @@ import { Route, Router, Switch  } from 'react-router-dom'
 // Pages
 import HomePage from './HomePage'
 import TeamPage from './TeamPage'
+import Privacy from './Privacy'
+import Terms from './Terms'
 
 // General/Home modules
 import Footer from './components/Footer'
@@ -20,7 +22,7 @@ ReactPixel.init('1076630789107052')
 ReactPixel.pageView()
 
 // Google Analytics implementation
-ReactGA.initialize('UA-000000-01')
+ReactGA.initialize('UA-105975605-1')
 ReactGA.set({ page: window.location.pathname + window.location.search })
 ReactGA.pageview(window.location.pathname + window.location.search)
 
@@ -35,6 +37,14 @@ history.listen((location, action) => {
   logPageView()
 })
 
+let pathname = history.location.pathname
+
+export const isTermsPrivacy = () => {
+  const is = pathname === '/privacy' || pathname === '/terms' ? true : false
+  return is
+}
+export const termsPrivacy = isTermsPrivacy()
+
 class App extends React.Component {
 
   public render() {
@@ -42,11 +52,13 @@ class App extends React.Component {
       <Router history={history}>
         <div className="App">
           <PreSaleBanner />
-          <Top hasBg={true} />
+          <Top hasBg={true} termsPrivacy={termsPrivacy}/>
 
           <Switch>
             <Route exact path={`${process.env.PUBLIC_URL}/`} component={HomePage} />
             <Route path={`${process.env.PUBLIC_URL}/team`} component={TeamPage} />
+            <Route path={`${process.env.PUBLIC_URL}/privacy`} component={Privacy} />
+            <Route path={`${process.env.PUBLIC_URL}/terms`} component={Terms} />
           </Switch>
 
           <Footer />

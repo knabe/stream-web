@@ -5,9 +5,11 @@ import Header from './components/Header'
 import News from './components/News'
 import Section from './components/Section'
 import SubscribeFooter from './components/SubscribeFooter'
-import Team2 from './components/Team2'
-import Terms2 from './components/Terms2'
-import Terms3 from './components/Terms3'
+import Team from './components/Team'
+import SaleTerms from './components/SaleTerms'
+import Backers from './components/Backers'
+import Advisors from './components/Advisors'
+import InCollaboration from './components/InCollaboration'
 import Timeline from './components/Timeline'
 import Video from './components/Video'
 
@@ -90,8 +92,10 @@ const HomePage = () => (
     </div>
 
     <Timeline />
-    <Terms2 />
-    <Terms3 />
+    <SaleTerms />
+    <Backers />
+    <Advisors />
+    <InCollaboration />
 
     <div className="container">
       <Section name="Story" image={StoryImg}>
@@ -104,7 +108,7 @@ const HomePage = () => (
     </div>
 
     <div className="container">
-      <Team2 />
+      <Team />
     </div>
 
     <News />
