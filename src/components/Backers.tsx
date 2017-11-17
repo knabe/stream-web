@@ -8,7 +8,7 @@ import * as FBG from '../images/FBG.png'
 import * as Fenbushi from '../images/fenbushi_logo.png'
 import * as InBlockchain from '../images/in_blockchain.png'
 import * as Pantera from '../images/pantera-white.png'
-import * as Zhen from '../images/zhen.png'
+/*import * as Zhen from '../images/zhen.png'*/
 
 const Backers = () => (
   <section className="Terms Backers grey_bg">
@@ -20,7 +20,6 @@ const Backers = () => (
         <img src={Fenbushi} alt="" />
         <img src={CoinFund} alt="" />
         <img src={BPK} alt="" />
-        <img src={Zhen} alt="" />
         <img src={FBG} alt="" />
         <img src={InBlockchain} alt="" />
       </div>
