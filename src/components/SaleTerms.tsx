@@ -25,7 +25,7 @@ const SaleTerms = () => (
           <li>17% Team</li>
         </ul>
         <p>ERC20 Token, directly purchasable with ether</p>
-        <p>The value of STC is fixed at $0.01 USD until 11/16, and then it is fixed to [$0.01 USD * [ETH / USD exchange rate on 11/16]] ETH</p>
+        <p>The pre-Token Sale value of STC is fixed at $0.01 USD.</p>
       </div>
     </div>
   </section>
