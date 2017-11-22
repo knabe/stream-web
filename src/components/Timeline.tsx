@@ -11,12 +11,6 @@ const Timeline = () => (
 
       <div className="line row">
         <hr className="col-xs-8 col-xs-offset-2" style={{ padding: 0 }}/>
-
-        <div className="col-xs-4 line_segment">
-          Advisor Round
-          <br /><b>CLOSED</b>
-        </div>
-
         <div className="col-xs-4 line_segment">
           Presale
           <br /><b>OPEN NOW</b>
