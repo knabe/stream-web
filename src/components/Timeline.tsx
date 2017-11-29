@@ -18,7 +18,7 @@ const Timeline = () => (
         </div>
 
         <div className="col-xs-4 line_segment">
-          Public Chrome Extension Beta
+          CRX Private Beta Opening
           <br /><b>Dec 8th</b>
         </div>
 
